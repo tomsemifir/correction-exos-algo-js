@@ -5,7 +5,7 @@ let nbAleatoire
 let nbSaisie
 
 let initialisationPartie = () => {
-    nbVie = read.questionInt("Combien de vies souhaitez vous ?")
+    nbVie = read.questionInt("Combien de vies souhaitez vous ?") -1 
     let nbMax = read.questionInt("Le nombre aléatoire est compris entre 0 et ...")
     nbAleatoire = Math.round(Math.random() * nbMax)
 }
