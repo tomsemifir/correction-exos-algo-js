@@ -9,7 +9,7 @@ for(let index = 0; index <= n; index++) {
     if(index !== n) {
         texte += index + "+";
     } else {
-        texte += "="
+        texte += index + "=";
     }
 }
 
